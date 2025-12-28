@@ -55,7 +55,6 @@ chmod +x ~/system_monitor.sh
 4.5 Verify Logs
 
 View the log output:
+
 cat /var/log/system_monitoring/metrics.log!
-![System Metrics Screenshot](https://raw.githubusercontent.com/username/repo/main/screenshots/Screenshot-2025-12-28-11-31-47.png)
-
-
+<img width="1037" height="890" alt="Screenshot 2025-12-28 at 11 31 47 PM" src="https://github.com/user-attachments/assets/96246846-a8ad-41d5-b964-49a681fb22b3" />
