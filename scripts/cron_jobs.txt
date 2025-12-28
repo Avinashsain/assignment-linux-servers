@@ -1,0 +1,2 @@
+0 0 * * 2 /home/sarah/apache_backup.sh
+0 0 * * 2 /home/mike/nginx_backup.sh
