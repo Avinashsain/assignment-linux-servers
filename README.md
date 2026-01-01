@@ -13,6 +13,9 @@ This task includes installing monitoring tools, checking disk and process usage,
 ```bash
 sudo yum install -y htop nmon
 
+<img width="1496" height="838" alt="Screenshot-7" src="https://github.com/user-attachments/assets/bf5206c5-f83d-4a16-adb7-777e6bed0396" />
+
+
 ````
 # Verify installation:
 
