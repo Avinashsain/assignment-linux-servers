@@ -22,16 +22,21 @@ htop or nmon
 <img width="1496" height="838" alt="Screenshot-7" src="https://github.com/user-attachments/assets/bf5206c5-f83d-4a16-adb7-777e6bed0396" />
 
 # 2. Disk Monitoring Setup
+
 ```bash
-df -h
-du -sh /*
+sudo df -h
+sudo du -sh /*
 ````
+<img width="451" height="336" alt="Screenshot 2026-01-01 at 11 27 26 PM" src="https://github.com/user-attachments/assets/a5c4e070-3702-44a8-8337-60bb1a68f6bd" />
+
 # 3. Process Monitoring
 ```bash
 top
 ps aux --sort=-%cpu | head -10
 ps aux --sort=-%mem | head -10
 ````
+<img width="852" height="380" alt="Screenshot 2026-01-01 at 11 28 48 PM" src="https://github.com/user-attachments/assets/7a2abd71-883b-4349-9262-9690f4032055" />
+
 # 4. Create Logging for System Metrics
 ### 4.1 Create Log Directory
 ```bash
@@ -67,6 +72,8 @@ schmod +x ~/system_monitor.sh
 ```bash
 cat /var/log/system_monitoring/metrics.log
 ````
+<img width="858" height="315" alt="Screenshot 2026-01-01 at 11 30 16 PM" src="https://github.com/user-attachments/assets/4888f6d3-2c0c-46fc-a6ec-35d731a7d62f" />
+
 ## Task 2: User Management
 
 ### 1. Create Users
