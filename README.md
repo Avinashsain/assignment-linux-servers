@@ -252,8 +252,9 @@ sudo crontab -u mike -e
 ```bash
 sudo crontab -u sarah -l
 sudo crontab -u mike -l
-
 ````
+<img width="431" height="108" alt="Screenshot 2025-12-28 at 8 42 14 PM" src="https://github.com/user-attachments/assets/8a3dfc12-7c6a-4349-8445-36bd5c417d2f" />
+
 ### 4. Test Backup Manually
 
 ```bash
@@ -271,3 +272,5 @@ cat /backups/nginx_verify_*.log
 cat /backups/apache_verify_*.log
 cat /backups/nginx_verify_*.log
 ````
+<img width="648" height="461" alt="Screenshot 2025-12-28 at 8 49 03 PM" src="https://github.com/user-attachments/assets/df528f92-8fb5-4682-afae-af0df96f82fd" />
+
