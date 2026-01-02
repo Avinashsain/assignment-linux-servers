@@ -83,8 +83,9 @@ sudo useradd sarah
 sudo useradd mike
 sudo passwd sarah
 sudo passwd mike
-
 ````
+<img width="444" height="99" alt="Screenshot-1" src="https://github.com/user-attachments/assets/0564cf09-4cc0-46d2-9490-8bab06de851e" />
+
 ### 2. Create Workspace Directories
 
 ```bash
@@ -96,37 +97,41 @@ sudo chown -R mike:mike /home/mike/workspace
 
 sudo chmod 700 /home/sarah/workspace
 sudo chmod 700 /home/mike/workspace
-
 ````
+<img width="443" height="267" alt="Screenshot-2" src="https://github.com/user-attachments/assets/61d643ed-70ab-42b5-9d8d-9e0428deadf0" />
+
 ### 3. Verify Directory Setup
 
 ```bash
 ls -ld /home/sarah/workspace
 ls -ld /home/mike/workspace
-
 ````
+<img width="458" height="116" alt="Screenshot-4" src="https://github.com/user-attachments/assets/572b134f-1dfb-422a-b29b-5248cd3c9e22" />
+
 #### Expected output:
 
 ```bash
 drwx------ 2 sarah sarah ... /home/sarah/workspace
 drwx------ 2 mike  mike  ... /home/mike/workspace
-
 ````
+<img width="458" height="116" alt="Screenshot-4" src="https://github.com/user-attachments/assets/e4c92abb-2c96-4e35-bcba-ee5ff73e28b5" />
+
 ### 4. Enforce Password Expiration Policy
 
 ```bash
 sudo chage -M 30 sarah
 sudo chage -M 30 mike
-
 ````
+<img width="348" height="71" alt="Screenshot-5" src="https://github.com/user-attachments/assets/4e9af718-fe03-49f1-8942-7c1b081f0cfa" />
 
 ### 5. Verify Password Expiry Settings
 
 ```bash
 sudo chage -l sarah
 sudo chage -l mike
-
 ````
+<img width="638" height="294" alt="Screenshot-6" src="https://github.com/user-attachments/assets/6e82d7e6-76e3-4687-95d8-079fb07662bf" />
+
 
 ## Task 3: Backup Configuration
 
