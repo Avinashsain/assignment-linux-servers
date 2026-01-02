@@ -106,7 +106,7 @@ sudo chmod 700 /home/mike/workspace
 ls -ld /home/sarah/workspace
 ls -ld /home/mike/workspace
 ````
-<img width="458" height="116" alt="Screenshot-4" src="https://github.com/user-attachments/assets/572b134f-1dfb-422a-b29b-5248cd3c9e22" />
+<img width="449" height="99" alt="Screenshot-3" src="https://github.com/user-attachments/assets/bb999ee8-a7de-4f79-90c6-05df0e6f5a37" />
 
 #### Expected output:
 
